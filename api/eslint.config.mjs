@@ -13,6 +13,7 @@ export default tseslint.config(
       globals: globals.node,
     },
     rules: {
+      '@typescript-eslint/consistent-type-imports': 'error',
       'no-console': 'warn',
     },
   },
