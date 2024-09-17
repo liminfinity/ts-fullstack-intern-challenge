@@ -25,6 +25,8 @@ services:
       - cat-pinterest-net
     environment:
       NODE_ENV: prod
+    ports:
+      - "3000:3000"
     depends_on:
       cat-pinterest-api-pg:
         condition: service_healthy
