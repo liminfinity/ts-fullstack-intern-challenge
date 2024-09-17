@@ -1,0 +1,16 @@
+{
+  "name": "cat-pinterest",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "UNLICENSED",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.1.6"
+  }
+}
